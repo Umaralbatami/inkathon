@@ -2,6 +2,8 @@
 /* eslint-env node */
 // @ts-check
 
+const path = require('path')
+
 /**
  * @type {import('next').NextConfig}
  **/
@@ -20,6 +22,7 @@ const nextConfig = {
     '@polkadot/util',
     '@polkadot/util-crypto',
   ],
+  output: 'standalone',
 }
 
 module.exports = nextConfig
