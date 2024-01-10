@@ -1,9 +1,10 @@
 /* eslint-disable @typescript-eslint/no-non-null-assertion */
 import { getSupportedChains } from './get-supported-chains'
 import { getURL } from './get-url'
+ctrl+Hack 
 
 /**
- * Environment Variables defined in `.env.local`.
+ * Environment Variables defined inn `.env.local`.
  * See `env.local.example` for documentation.
  */
 export const env = {
